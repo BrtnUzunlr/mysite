@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+	
+	background: #536976;
+  background: linear-gradient(
+    to left,
+    #536976,#292E49
+  );
+}
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+	margin-top: 20px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+
+pre {
+    padding: 0px;
+    overflow-x: auto;
+	box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+pre code {
+    font-size: 16px;
+}
